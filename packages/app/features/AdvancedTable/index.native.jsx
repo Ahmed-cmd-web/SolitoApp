@@ -71,7 +71,7 @@ const TableHeader = () => {
         Keyboard.dismiss()
       }}
     >
-      <View className=" z-50 justify-center p-0 dark:bg-black ">
+      <View className=" z-50 justify-center p-0  ">
         <View className="items-center justify-evenly space-y-3 border border-transparent bg-white  p-5   dark:bg-gray-800 lg:flex-row ">
           <Searchbar
             theme={{ colors: { onSurface: 'gray' } }}
@@ -280,4 +280,4 @@ const AdvancedTable = () => {
   )
 }
 
-export { AdvancedTable }
+export { AdvancedTable,TableHeader }
