@@ -14,6 +14,9 @@ export function HomeScreen() {
         <TextLink href={'/CTA'}>CTA</TextLink>
         <TextLink href={'/AdvancedTable'}>Advanced Table</TextLink>
       </Row>
+      <Row className="m-4 w-full justify-center">
+        <TextLink href={'/readModal'}>Read Modal</TextLink>
+      </Row>
     </View>
   )
 }
