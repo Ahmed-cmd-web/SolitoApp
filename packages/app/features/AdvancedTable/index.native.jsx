@@ -146,7 +146,7 @@ const TableHeader = () => {
   )
 }
 
-const TableColumn = ({ header, data, cellColorWhite = false }) => (
+const TableColumn = ({ header, data }) => (
   <DataTable className="w-full flex-1 justify-center">
     <DataTable.Header className="  bg-gray-50   dark:bg-gray-700 dark:text-gray-400 ">
       <DataTable.Title className=" px-4 py-3 ">
@@ -264,7 +264,6 @@ const AdvancedTable = () => {
                     </Text>
                   )),
               )}
-              cellColorWhite={index === 0}
             />
           ))}
           <TableColumn
@@ -280,4 +279,4 @@ const AdvancedTable = () => {
   )
 }
 
-export { AdvancedTable,TableHeader }
+export { AdvancedTable, TableHeader }
